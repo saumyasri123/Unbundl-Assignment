@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental Clinic Landing Page</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Free via cdnjs (solid icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <div class="logo">
+                <div class="brand">clove<span class="smile">:)</span></div>
+                <div class="sub">DENTAL</div>
+            </div>
+
+            <div class="top-actions">
+                <a class="btn btn-outline" href="#"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
+                <a class="phone" href="tel:9856589510"><i class="fa-solid fa-phone"></i>
+                    <strong>985-6589-510</strong></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-grid">
+            <!-- LEFT: visual (background + doctor + copy card) -->
+            <div class="visual">
+                <img class="bg" src="assets/background.png" alt="Dental clinic background" />
+                <img class="doctor" src="assets/doctor.png" alt="Doctor" />
+
+                <div class="copy-card">
+                    <h1>Painless Root Canal Treatment in Delhi</h1>
+                    <p>Expert RCT. Zero Pain. Right Here in Delhi.</p>
+                    <a class="btn btn-primary" href="#"><i class="fa-regular fa-calendar"></i> Book Appointment</a>
+                </div>
+            </div>
+
+            <!-- RIGHT: form card -->
+            <aside class="form-card">
+                <h3>Get Expert Dental Guidance in Delhi</h3>
+                <p class="lead">Book your free consultation today and take the first step towards healthy, beautiful
+                    teeth.</p>
+
+                <form class="form" action="#" method="post">
+                    <label class="input">
+                        <input type="text" placeholder="Name" required>
+                    </label>
+                    <label class="input">
+                        <input type="tel" placeholder="Mobile Number" required>
+                    </label>
+                    <label class="input captcha">
+                        <input type="text" placeholder="Captcha" required>
+                        <span class="pill">1514</span>
+                    </label>
+
+                    <label class="agree">
+                        <input type="checkbox">
+                        <span>I agree to CLOVE Dental’s <a href="#">Terms</a> and <a href="#">Privacy Policy</a> and
+                            consent to contact via phone, email, or SMS.</span>
+                    </label>
+
+                    <button class="btn btn-primary btn-wide" type="submit">Book a Free Consultation</button>
+                </form>
+            </aside>
+        </div>
+
+        <div class="marquee">
+            <div class="track">
+                <!-- Sequence A -->
+                <div class="stat-chip"><i class="fa-solid fa-people-group"></i><span><span class="highlight">20
+                            L+</span>Happy Patients</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-tooth"></i><span><span class="highlight">35K+</span>Ortho
+                        Cases</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-screwdriver-wrench"></i><span><span
+                            class="highlight">55K+</span>Implants Placed</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-hospital"></i><span><span
+                            class="highlight">600+</span>Clinics</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-user-doctor"></i><span><span
+                            class="highlight">1300+</span>Dentists</span></div>
+                <!-- Sequence B (duplicate for seamless loop) -->
+                <div class="stat-chip"><i class="fa-solid fa-people-group"></i><span><span class="highlight">20
+                            L+</span>Happy Patients</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-tooth"></i><span><span class="highlight">35K+</span>Ortho
+                        Cases</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-screwdriver-wrench"></i><span><span
+                            class="highlight">55K+</span>Implants Placed</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-hospital"></i><span><span
+                            class="highlight">600+</span>Clinics</span></div>
+                <div class="stat-chip"><i class="fa-solid fa-user-doctor"></i><span><span
+                            x class="highlight">1300+</span>Dentists</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================  TYPES OF ROOT CANAL TREATMENTS =================== -->
+    <section class="types">
+        <div class="container">
+            <h2>Types of Root Canal Treatments</h2>
+            <p class="sub">In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with
+                special material.</p>
+
+            <div class="cards">
+                <!-- CARD 1 -->
+                <article class="card">
+                    <div class="card-inner">
+                        <div class="media">
+                            <!-- replace with your actual path -->
+                            <img src="assets/rct-left.png" alt="Root Canal illustration (yellow handle)">
+                        </div>
+                        <div class="content">
+                            <h3>Root Canal Treatment</h3>
+                            <p class="lead">Ideal for infected or damaged tooth</p>
+
+                            <h4>Types of RCT</h4>
+                            <ul>
+                                <li>Root Canal Treatment</li>
+                                <li>Split RCT</li>
+                                <li>Split RCT with rubber dam</li>
+                                <li>Split RCT with laser</li>
+                            </ul>
+
+                            <div class="price-row">
+                                <span class="label">Starting Price</span>
+                                <span class="price">₹ 19,999</span>
+                            </div>
+
+                            <a href="#" class="btn-cta">Get Free Consultation</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- CARD 2 -->
+                <article class="card">
+                    <div class="card-inner">
+                        <div class="media">
+                            <!-- replace with your actual path -->
+                            <img src="assets/rct-right.png" alt="Re-Root Canal illustration (blue handle)">
+                        </div>
+                        <div class="content">
+                            <h3>Re-Root Canal Treatment</h3>
+                            <p class="lead">Ideal issues that persist or recur after an initial root canal treatment</p>
+
+                            <h4>Types of RCT</h4>
+                            <ul>
+                                <li>Re-RCT with rubber dam</li>
+                                <li>Re-RCT laser specialist</li>
+                                <li>e-RCT with retrieval of old RCT filling</li>
+                            </ul>
+
+                            <div class="price-row">
+                                <span class="label">Starting Price</span>
+                                <span class="price">₹ 19,999</span>
+                            </div>
+
+                            <a href="#" class="btn-cta">Get Free Consultation</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== REAL SMILES, REAL TRANSFORMATIONS =================== -->
+    <section class="smiles">
+        <div class="container">
+            <h2 class="smiles-title">Real Smiles, Real Transformations</h2>
+            <p class="smiles-sub">See the life-changing results our dental implant patients enjoy</p>
+
+            <div class="smiles-grid">
+                <!-- 1 -->
+                <figure class="smile">
+                    <div class="shots">
+                        <!-- replace with your images -->
+                        <img src="assets/arjun.png" alt="Arjun Mehta before and after">
+                    </div>
+                    <figcaption class="meta">
+                        <span class="name">Arjun Mehta</span>
+                        <span class="city">Mumbai</span>
+                    </figcaption>
+                </figure>
+
+                <!-- 2 -->
+                <figure class="smile">
+                    <div class="shots">
+                        <img src="assets/Kavita.png" alt="Kavita Sharma before and after">
+                    </div>
+                    <figcaption class="meta">
+                        <span class="name">Kavita Sharma</span>
+                        <span class="city">Bangalore</span>
+                    </figcaption>
+                </figure>
+
+                <!-- 3 -->
+                <figure class="smile">
+                    <div class="shots">
+                        <img src="assets/Neha.png" alt="Neha Joshi before and after">
+                    </div>
+                    <figcaption class="meta">
+                        <span class="name">Neha Joshi</span>
+                        <span class="city">Delhi</span>
+                    </figcaption>
+                </figure>
+
+                <!-- 4 -->
+                <figure class="smile">
+                    <div class="shots">
+                        <img src="assets/Viram.png" alt="Viram Desai before and after">
+                    </div>
+                    <figcaption class="meta">
+                        <span class="name">Viram Desai</span>
+                        <span class="city">Chennai</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== WHY CHOOSE CLOVE DENTAL =================== -->
+    <section class="why" id="why">
+        <div class="container">
+            <h2 class="why-title">Why Choose Clove Dental</h2>
+            <p class="why-sub">Clove Dental is India’s Leading dental care brand with 600+ clinic nationwide</p>
+
+            <div class="why-grid">
+                <!-- LEFT: interactive list -->
+                <ul class="why-list" id="whyList">
+                    <!-- 1 -->
+                    <li class="why-item" data-image="assets/why-choose1.png">
+                        <button class="why-toggle" id="why-btn-1" aria-expanded="false" aria-controls="why-panel-1">
+                            <span class="label">DORI - A.I. enabled Dental chair</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div id="why-panel-1" class="why-panel" role="region" aria-labelledby="why-btn-1">
+                            <div class="why-panel-inner">
+                                <ul class="why-points">
+                                    <li>Reducing the risk of cross-contamination</li>
+                                    <li>Rapidly analyse diagnostic images, such as X-rays or 3D scans</li>
+                                    <li>Identify potential issues that may not be immediately visible to the human eye
+                                    </li>
+                                    <li>Quicker diagnoses and more timely treatment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 2 -->
+                    <li class="why-item" data-image="assets/why-choose2.png">
+                        <button class="why-toggle" id="why-btn-2" aria-expanded="false" aria-controls="why-panel-2">
+                            <span class="label">10x Safety and 4 steps sterilization process</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div id="why-panel-2" class="why-panel" role="region" aria-labelledby="why-btn-2">
+                            <div class="why-panel-inner">
+                                <ul class="why-points">
+                                    <li>Reducing the risk of cross-contamination</li>
+                                    <li>Rapidly analyse diagnostic images, such as X-rays or 3D scans</li>
+                                    <li>Identify potential issues that may not be immediately visible to the human eye
+                                    </li>
+                                    <li>Quicker diagnoses and more timely treatment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 3 -->
+                    <li class="why-item" data-image="assets/why-choose3.png">
+                        <button class="why-toggle" id="why-btn-3" aria-expanded="false" aria-controls="why-panel-3">
+                            <span class="label">Experienced and Certified implantologist</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div id="why-panel-3" class="why-panel" role="region" aria-labelledby="why-btn-3">
+                            <div class="why-panel-inner">
+                                <ul class="why-points">
+                                    <li>200+ Experienced and Certified Implant Specialists.</li>
+                                    <li>50,000+ Implants placed successfully.</li>
+                                    <li>Avg experience of 10+ years with specialized training.</li>
+                                    <li>Continuous training keeps dentists up-to-date with the latest technology.</li>
+                                    <li>Minimally invasive implant procedures reduce recovery and treatment times.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 4 & 5 (static rows, no dropdown) -->
+                    <li class="why-item">
+                        <button class="why-toggle" aria-expanded="false" disabled>
+                            <span class="label">Updated with world class equipments</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                    </li>
+
+                    <li class="why-item">
+                        <button class="why-toggle" aria-expanded="false" disabled>
+                            <span class="label">Regular audits for safety protocols</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- RIGHT: one image that swaps src -->
+                <figure class="why-figure">
+                    <img id="whyImage" src="assets/why-choose.png" data-default="assets/why-choose.png"
+                        alt="Clinic facility">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== WHAT OUR PATIENTS SAY =================== -->
+    <section class="patients" id="patients">
+        <div class="container">
+            <h2 class="patients-title">What Our Patients Say</h2>
+            <p class="patients-sub">Real smiles, real stories. Here’s what our patients love about their CLOVE Dental
+                experience!</p>
+
+            <div class="patients-row">
+                <!-- 1 — GIF card -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient1.gif" alt="Shubham testimonial (GIF)">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Shubham</span>
+                        <span class="tag">Aligners</span>
+                    </div>
+                    <div class="line2">Indore</div>
+                </article>
+
+                <!-- 2 -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient2.png" alt="Shubpreet">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Shubpreet</span>
+                        <span class="tag">RCT</span>
+                    </div>
+                    <div class="line2">Indore</div>
+                </article>
+
+                <!-- 3 -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient3.png" alt="Anita">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Anita</span>
+                        <span class="tag">Laser Treatment</span>
+                    </div>
+                    <div class="line2">Bangalore</div>
+                </article>
+
+                <!-- 4 -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient4.png" alt="Aarti">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Aarti</span>
+                        <span class="tag">Dentures</span>
+                    </div>
+                    <div class="line2">Indore</div>
+                </article>
+
+                <!-- 5 -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient5.png" alt="Aditya">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Aditya</span>
+                        <span class="tag">Implant</span>
+                    </div>
+                    <div class="line2">Indore</div>
+                </article>
+
+                <!-- 6 -->
+                <article class="patient-card">
+                    <div class="patient-media">
+                        <img src="assets/Patient6.png" alt="Nikita">
+                    </div>
+                    <div class="line1">
+                        <span class="name">Nikita</span>
+                        <span class="tag">Aligners</span>
+                    </div>
+                    <div class="line2">Indore</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== APPOINTMENT BAR =================== -->
+    <section class="bookbar" id="bookbar">
+        <div class="container">
+            <h2 class="bookbar-title">Book an Appointment With Clove Dentist in Delhi</h2>
+
+            <form class="bookbar-card" action="#" method="post" novalidate>
+                <label class="bb-input">
+                    <input type="text" placeholder="Name" required>
+                </label>
+
+                <label class="bb-input">
+                    <input type="tel" placeholder="Phone" required>
+                </label>
+
+                <label class="bb-input bb-captcha">
+                    <input type="text" placeholder="Captcha" required>
+                    <span class="bb-pill">1514</span>
+                </label>
+
+                <label class="bb-agree">
+                    <input type="checkbox">
+                    <span>I agree to CLOVE Dental’s <a href="#">Terms</a> and <a href="#">Privacy Policy</a> and consent
+                        to contact via phone, email, or SMS.</span>
+                </label>
+                <button class="bb-btn" type="submit">Book Free Consultation</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- =================== SAFETY, PRECISION, AND INNOVATION =================== -->
+    <section class="safety" id="safety">
+        <div class="container">
+            <h2 class="safety-title">Safety, Precision, and Innovation</h2>
+            <p class="safety-sub">Advanced care with top safety, sterilization, and technology</p>
+
+            <div class="safety-grid">
+                <!-- Card 1 -->
+                <article class="s-card">
+                    <figure class="s-figure">
+                        <img src="assets/SPI1.png" alt="Dental operatory and equipment">
+                        <div class="s-overlay">
+                            <div class="s-title-row">
+                                <h3 class="s-card-title">Uncompromised<br>Safety</h3>
+                                <span class="s-bar"></span>
+                            </div>
+                            <p class="s-desc">
+                                10X Safety Protocols for a secure and worry-free dental experience
+                            </p>
+                            <a href="#" class="s-cta">
+                                <span class="s-ico"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <span>Learn More</span>
+                                <i class="fa-solid fa-arrow-right s-arrow"></i>
+                            </a>
+                        </div>
+                    </figure>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="s-card">
+                    <figure class="s-figure">
+                        <img src="assets/SPI2.png" alt="Sterilization process">
+                        <div class="s-overlay">
+                            <div class="s-title-row">
+                                <h3 class="s-card-title">Assuring<br>Cleanliness</h3>
+                                <span class="s-bar"></span>
+                            </div>
+                            <p class="s-desc">
+                                Rigid 4-Step Sterilization process, assuring a safe &amp; spotless clinic.
+                            </p>
+                            <a href="#" class="s-cta">
+                                <span class="s-ico"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <span>Learn More</span>
+                                <i class="fa-solid fa-arrow-right s-arrow"></i>
+                            </a>
+                        </div>
+                    </figure>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="s-card">
+                    <figure class="s-figure">
+                        <img src="assets/SPI3.png" alt="AI powered sterilization monitoring">
+                        <div class="s-overlay s-overlay--brown">
+                            <div class="s-title-row">
+                                <h3 class="s-card-title">Experience <span class="s-accent">AIPS</span></h3>
+                                <span class="s-bar"></span>
+                            </div>
+                            <p class="s-desc">
+                                Our AI-Powered Sterilization (AIPS) Monitoring system from DORI, USA — exclusively at
+                                Clove
+                            </p>
+                            <a href="#" class="s-cta">
+                                <span class="s-ico"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <span>Learn More</span>
+                                <i class="fa-solid fa-arrow-right s-arrow"></i>
+                            </a>
+                        </div>
+                    </figure>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== GOOGLE REVIEWS =================== -->
+    <section class="greviews" id="google-reviews">
+        <div class="container">
+            <h2 class="gr-title">Google Reviews</h2>
+
+            <div class="gr-wrap">
+                <!-- LEFT: Google rating summary -->
+                <aside class="gr-summary">
+                    <img class="gr-glogo" src="assets/Google_Logo.png" alt="Google logo">
+
+                    <div class="gr-rating">
+                        <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                        <span class="gr-score">4.9</span>
+                    </div>
+
+                    <div class="gr-count"><strong>(1.6 Lakh +)</strong></div>
+                    <div class="gr-verify">Verified Google Ratings</div>
+                </aside>
+
+                <!-- RIGHT: horizontally scrolling review cards -->
+                <div class="gr-cards">
+                    <!-- Card 1 -->
+                    <article class="gr-card">
+                        <div class="gr-badge">
+                            <span class="gr-badge-dot"></span>
+                            <img src="assets/Google_Logo.png" alt="Anita" loading="lazy">
+                        </div>
+
+                        <header class="gr-head">
+                            <img class="gr-avatar" src="assets/avatar.png" alt="Neha Singh">
+                            <h3 class="gr-name">Neha Singh</h3>
+                        </header>
+
+                        <div class="gr-stars">
+                            <!-- 5 filled stars -->
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                        </div>
+
+                        <p class="gr-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad.
+                        </p>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="gr-card">
+                        <div class="gr-badge">
+                            <span class="gr-badge-dot"></span>
+                            <img src="assets/Google_Logo.png" alt="" aria-hidden="true">
+                        </div>
+                        <header class="gr-head">
+                            <img class="gr-avatar" src="assets/avatar.png" alt="Neha Singh">
+                            <h3 class="gr-name">Neha Singh</h3>
+                        </header>
+                        <div class="gr-stars">
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                        </div>
+                        <p class="gr-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad.
+                        </p>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="gr-card">
+                        <div class="gr-badge">
+                            <span class="gr-badge-dot"></span>
+                            <img src="assets/Google_Logo.png" alt="" aria-hidden="true">
+                        </div>
+                        <header class="gr-head">
+                            <img class="gr-avatar" src="assets/avatar.png" alt="Neha Singh">
+                            <h3 class="gr-name">Neha Singh</h3>
+                        </header>
+                        <div class="gr-stars">
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                        </div>
+                        <p class="gr-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad.
+                        </p>
+                    </article>
+
+                    <!-- Card 4 (partially visible like the screenshot) -->
+                    <article class="gr-card">
+                        <div class="gr-badge">
+                            <span class="gr-badge-dot"></span>
+                            <img src="assets/Google_logo.png" alt="" aria-hidden="true">
+                        </div>
+                        <header class="gr-head">
+                            <img class="gr-avatar" src="assets/avatar.png" alt="Neha Singh">
+                            <h3 class="gr-name">Neha Singh</h3>
+                        </header>
+                        <div class="gr-stars">
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f0ad1e;"></i>
+                        </div>
+                        <p class="gr-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== FAQ =================== -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+
+            <div class="faq-grid">
+                <!-- LEFT COLUMN -->
+                <ul class="faq-list">
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-1">
+                            <span>Can i choose the dentist on my own for treatment ?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-1" role="region" aria-labelledby="">
+                            <p>Yes. Based on your preferences and schedule, our team helps you select the dentist best
+                                suited to your needs.</p>
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-2">
+                            <span>Will i get the same doctor each time i visit the same clinic ?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-2" role="region">
+                            <p>We try to keep continuity. If your preferred doctor isn’t available, we’ll schedule the
+                                earliest slot or provide an equally qualified specialist.</p>
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-3">
+                            <span>How you are able to provide less prices than other dental brands ?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-3" role="region">
+                            <p>Centralized procurement and standardized protocols let us pass efficiencies directly to
+                                patients.</p>
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-4">
+                            <span>How you are able to provide less prices than other dental brands ?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-4" role="region">
+                            <p>We maintain transparent pricing with no hidden charges. Ask at reception for a detailed
+                                estimate.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- RIGHT COLUMN -->
+                <ul class="faq-list">
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-5">
+                            <span>What are your dental clinic timings?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-5" role="region">
+                            <p>Typical hours are 9:00 AM – 8:00 PM, all week. Timings may vary by clinic.</p>
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-6">
+                            <span>How can I book an appointment?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-6" role="region">
+                            <p>Use the website form, call the helpline, or visit the nearest clinic. Instant
+                                confirmations are shared by SMS.</p>
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-q" aria-expanded="false" aria-controls="faq-a-7">
+                            <span>How frequently should I visit a dentist?</span>
+                            <i class="ico" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-a" id="faq-a-7" role="region">
+                            <p>Every 6 months for a routine check-up and cleaning, or as advised by your dentist.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== FOOTER =================== -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-inner">
+            <div class="footer-top container">
+                <div class="footer-logo">
+                    <div class="brand">clove<span class="smile">:)</span></div>
+                    <div class="sub">DENTAL</div>
+                </div>
+
+                <nav class="footer-nav">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of service</a>
+                    <a href="#">Accessibility</a>
+                </nav>
+            </div>
+
+            <div class="footer-line"></div>
+
+            <div class="footer-bottom container">
+                <p>All Rights Reserved - 2024, Clove Dental (a brand name of M/s. SStar Dental Centre Private Limited).
+                    Managed By Unbundl</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
